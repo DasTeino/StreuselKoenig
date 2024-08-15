@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #6a4f4b;
-    color: white;
+    background-color: #ECE6CD;
+    color: #3A3F58;
     padding: 20px;
     text-align: center;
 }
@@ -18,7 +18,7 @@ header {
 
 nav a {
     margin: 0 15px;
-    color: white;
+    color: #3A3F58;
     text-decoration: none;
 }
 
@@ -31,8 +31,8 @@ main {
 }
 
 .hero {
-    background-color: #d1a7a0;
-    color: white;
+    background-color: #EE6A59;
+    color: #ECE6CD;
     padding: 40px;
     text-align: center;
 }
@@ -47,8 +47,8 @@ main {
 }
 
 footer {
-    background-color: #6a4f4b;
-    color: white;
+    background-color: #3A3F58;
+    color: #ECE6CD;
     text-align: center;
     padding: 10px;
     position: fixed;
