@@ -1,0 +1,113 @@
+.index {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.background_1 {
+    width: 120%;
+    height: 120%;
+    object-fit:cover;
+    mask-image: url(/Assets/overlays/blob_1.svg);
+    mask-repeat: no-repeat;
+}
+
+.background_2 {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    mask-image: url(/Assets/overlays/blob_4.svg);
+    mask-repeat: no-repeat;
+}
+
+.background_3 {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    mask-image: url(/Assets/overlays/blob_3.svg);
+    mask-repeat: no-repeat;
+}
+
+.background_4 {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    mask-image: url(/Assets/overlays/blob_1.svg);
+    mask-repeat: no-repeat;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #f9f9f9;
+   }
+
+.grid-container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr; /* 3 columns */
+    grid-template-rows: auto; /* Auto adjusts row height */
+    gap: 20px; /* Space between grid items */
+    width: 95%;
+    max-width: 1000px;
+    margin: 20px;
+    padding-bottom: 30px;
+    height: max-content;
+}
+
+/* General styling for all grid items */
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+    color: #3A3F58;
+}
+
+.item1 {
+    justify-self:stretch;
+    grid-column: span 3;
+}
+
+.item4 {
+    justify-self:stretch;
+    grid-column: span 3;
+}
+
+.item5 {
+    justify-self:stretch;
+    grid-column: span 3;
+}
+
+.item7 {
+    justify-self:stretch;
+    grid-column: span 3;
+}
+
+.item2 {
+    justify-self:stretch;
+    grid-column: span 2;
+}
+
+.item3 {
+    justify-self:stretch;
+    grid-column: span 2;
+}
+
+.item6 {
+    justify-self:stretch;
+    grid-column: span 2;
+}   
+
+.item8 {
+    justify-self:stretch;
+    grid-column: span 2;
+}
